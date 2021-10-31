@@ -1,0 +1,13 @@
+.header-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 31px;
+  font-weight: 500;
+  color: #bd1fee;
+
+  p {
+    cursor: pointer;
+  }
+}

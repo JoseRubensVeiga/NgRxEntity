@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./assets/scss/normalize.css";
+@import "./assets/scss/fonts.scss";
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:active {
+  color: inherit;
+}
+
+html,
+body,
+input,
+button,
+textarea {
+  font-family: SourceSansPro, sans-serif;
+}
+
+.text-red {
+  color: #eb5454;
+}

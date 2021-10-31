@@ -1,0 +1,10 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "description": "As crônicas de Gelo e Fogo",
+      "value": 149.99,
+      "img": "https://images-na.ssl-images-amazon.com/images/I/51w9f9zx2kL.jpg"
+    }
+  ]
+}
