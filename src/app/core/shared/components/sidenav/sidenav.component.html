@@ -2,6 +2,8 @@
   <div>Menu</div>
   <hr />
   <ul>
-    <li>Cadastros</li>
+    <li *ngFor="let menuItem of menuItems" [routerLink]="menuItem.url">
+      {{ menuItem.label }}
+    </li>
   </ul>
 </div>
